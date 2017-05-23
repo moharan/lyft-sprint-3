@@ -15,6 +15,7 @@ body {
 /*header*/
 header {
 	position: fixed;
+	z-index: 1;
 	/*margin-top: -16px;*/
 	background-color: #E54E79;
 	width: 100%;
@@ -65,14 +66,18 @@ input {
 	margin-right: 120px;
 	margin-top: 8px;
 }
-/*contenedor*/
+
 .contenedor {
 	height: 650px;
 	background-image: url(../img/bg_contenedor.jpg);
 	background-size: cover;
 	background-position: center;
+	/* imagen fija*/
+	background-attachment: fixed;
 	width: auto;
+	position: relative;
 }
+/*contenedor turn */
 .turn {
 	position: absolute;
 	right: 0;
@@ -107,4 +112,23 @@ input {
 .texto02 {
 	font-size: 14px;
 }
+/*contenedor playwith */
+.playwith {
+	height: 555px;
+	background-color: #00b2a9;
+	width: auto;
+}
+/*contenedor sprint*/
+.sprint {
+	height: 200px;
+	background-color: #75726c;
+	width: auto;
+}
+/*footer*/
+footer {
+	height: 50px;
+	background-color: #666;
+	width: auto;
+}
+
 
