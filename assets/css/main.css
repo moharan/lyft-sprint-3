@@ -10,6 +10,7 @@ body {
 	background-color: purple;
 	font-family: 'Raleway', sans-serif;
 	margin: 0 auto;
+	color: #75726c;
 }
 /*header*/
 header {
@@ -35,6 +36,11 @@ ul, li {
 li a:hover, .dropdown:hover{
     color: #75726C;
 }
+
+input {
+	border-style: none;
+}
+
 .logo {
 	background-image: url(../img/logo-white.png);
 	background-size: 100%;
@@ -71,8 +77,34 @@ li a:hover, .dropdown:hover{
 	position: absolute;
 	right: 0;
 	top: 170px;
-	width: 500px;
-	height: 400px;
+	width: 420px;
+	height: 320px;
 	background-color: #EDE9E2;
+	padding: 40px;
+}
+.become {
+	width: 225px;
+	height: 45px;
+	background-color: #e56385;
+	border-style: none;
+	border-radius: 12px;
+	color: white;
+	font-size: 16px;
+}
+
+.texto01 {
+	color: #00b2a9;
+	font-weight: bold;
+}
+
+.phonenumber {
+	border-bottom: 1px solid #75726c;
+	background-color: #EDE9E2;
+	color: #75726c;
+	width: 100%;
+}
+
+.texto02 {
+	font-size: 14px;
 }
 
