@@ -98,8 +98,9 @@ input {
 }
 
 .texto01 {
-	color: #00b2a9;
-	font-weight: bold;
+	font-size: 24px;
+    color: #00b2a9;
+    font-weight: bold;
 }
 
 .phonenumber {
