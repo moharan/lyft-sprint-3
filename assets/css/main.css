@@ -116,7 +116,7 @@ input {
 }
 /*contenedor playwith */
 .playwith {
-	height: 450px;
+	height: 550px;
 	background-color: #00b2a9;
 	width: auto;
 	padding-top: 70px;
@@ -238,19 +238,23 @@ footer {
 }*/
 #tablero{
   border: 1px solid #900C3F;
-  width: 400px;
-  height: auto;
-  margin: 0 auto;
+  width: 550px;
+  height: 330px;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }
 .casilla{
   box-sizing: border-box;
-  /*Es mejor con float:left*/
-  display:inline-block;
+  float:left;
+  /*display:inline-block;*/
   background-color: #581845;
   color: whitesmoke;
-  padding: 5px;
   font-family: sans-serif;
-  width: 10%;
+  font-size: 8px;
+  width: 55px;
+  height: 55px;
   text-align: center;
   border: 1px #900C3F solid;
 }
