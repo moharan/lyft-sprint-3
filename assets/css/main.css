@@ -40,6 +40,7 @@ li a:hover, .dropdown:hover{
 
 input {
 	border-style: none;
+	color: #999;
 }
 
 .logo {
@@ -115,7 +116,7 @@ input {
 }
 /*contenedor playwith */
 .playwith {
-	height: auto;
+	height: 450px;
 	background-color: #00b2a9;
 	width: auto;
 	padding-top: 70px;
@@ -143,9 +144,9 @@ input {
 }
 
 .autitos {
-	margin: 80px auto;
+	margin: 60px auto;
 	width: 900px;
-	height: 260px;
+	height: 200px;
 	background-color: #EDE9E2;
 }
 
@@ -156,23 +157,68 @@ input {
 }
 
 .seleccion {
+	padding-top: 30px;
 	display: block;
-    background-color: blue;
     width: 50%;
-    margin: 0 auto;
+    margin: 30px auto;
     float: left;
 }
 /*contenedor sprint*/
 .sprint {
 	height: 200px;
 	background-color: #75726c;
+	color: white;
 	width: auto;
+}
+.sprint h2 {
+	color: #00b2a9;
+}
+
+.info01 {
+	padding-left: 10%;
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+.info02 {
+	padding-right: 10%;
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+.info02 li {
+	border: 1px dashed #ede9e2;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
 }
 /*footer*/
 footer {
-	height: 50px;
+	height: 35px;
 	background-color: #666;
+	color: #ede9e2;
+	padding-top: 15px;
 	width: auto;
+	text-align: center;
+}
+
+.codepen {
+	width: 10px;
+	height: 10px;
+	color: black;
+}
+
+.html5 {
+	width: 10px;
+	height: 10px;
+	color: orange;
+}
+
+.css3 {
+	width: 10px;
+	height: 10px;
+	color: #00BFFF;
 }
 /*juego
 .juego {
@@ -190,25 +236,22 @@ footer {
 	height: 48px;
 	display: inline-block;
 }*/
-
 #tablero{
-  border: 5px solid #900C3F;
-  width: 500px;
+  border: 1px solid #900C3F;
+  width: 400px;
   height: auto;
   margin: 0 auto;
-  text-align: center;
 }
-
 .casilla{
   box-sizing: border-box;
   /*Es mejor con float:left*/
   display:inline-block;
   background-color: #581845;
   color: whitesmoke;
-  padding: 10px;
+  padding: 5px;
   font-family: sans-serif;
   width: 10%;
   text-align: center;
-  border: 5px #900C3F solid;
+  border: 1px #900C3F solid;
 }
 
