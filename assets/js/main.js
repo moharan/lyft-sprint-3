@@ -1,25 +1,24 @@
 //alert("Proyecto final");
-// crear constructor
+// crear constructor (teoria)
 class Teclado {
-
     constructor(posicion_x, posicion_y) {
         this.posicion_x = posicion_x;
         this.posicion_y = posicion_y;
     }
     avanzar() {
-        return 'avanzando'
+        return "avanzando"
     }
 
-    irIzquierda(tablero) {
-        return 'avanzamos a la izquierda';
+    irIzquierda() {
+        return "avanzamos a la izquierda";
     }
 
     irDerecha() {
-        return 'avanzamos a la derecha';
+        return "avanzamos a la derecha";
     }
 
     retroceder() {
-        return 'retrocediendo';
+        return "retrocediendo";
     }
 }
 // escuchador a las teclas
