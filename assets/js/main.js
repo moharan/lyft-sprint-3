@@ -75,7 +75,7 @@ var juego = function() {
 		]
 		//Ingreso el auto en la posicion 3,5
 		// esta ingresando valores del value auto01 - auto02 *NO FUNCIONA 100%*
-		tablero[auto01][auto02] = "x";
+		tablero[auto01][auto02] = "<img src='assets/img/car.png' alt='autito' width='25'>";
 
 		//Obtengo el div en donde se dibujará el tablero
 		var divTablero = document.getElementById("tablero");
