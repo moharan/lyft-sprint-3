@@ -31,7 +31,7 @@
 		<div class="turn">
 			<p class="texto01">TURN MILES INTO MONEY</p>
 			<p>SIGN UP TO DRIVE LYFT</p>
-			<input type="text" name="phonenumber" value="Phone Number"  class="phonenumber"><br><br>
+			<input type="text" name="phonenumber" placeholder="Phone Number"  class="phonenumber" id="phonenumber"><br><br>
 			<button class="become" id="become">BECOME A DRIVER <i class="fa fa-heart fa-1x"></i></button>
 			<p class="texto02">Already applied? Check the status of your application here. <br><br>
 			Earn money for inviting friends to drive. Learn more.</p>
@@ -39,19 +39,20 @@
 	</div>
 	<div class="playwith">
 			<div class="titulo01">PLAY WITH LYFT</div>
-			<div class="autitos">
+			<section id="tablero"></section>
+			<div class="autitos" id="autitos">
 				<div class="seleccion">
-					<i class="fa fa-heart fa-1x"></i>
-					<input type="text" name="phonenumber" value="X coordinate"  class="seleccionautos"></div>
+					<i class="fa fa-car fa-1x"></i>
+					<input type="text" name="phonenumber" placeholder="Xcoordinate"  class="seleccionautos" id="auto01"></div>
 				<div class="seleccion">
-					<i class="fa fa-heart fa-1x"></i>
-					<input type="text" name="phonenumber" value="y coordinate"  class="seleccionautos"></div><br><br>
-				<button class="start">Start</button>
+					<i class="fa fa-car fa-1x"></i>
+					<input type="text" name="phonenumber" placeholder="Ycoordinate"  class="seleccionautos" id="auto02"></div><br><br>
+				<button class="start" id="start">Start</button>
 			</div>
-		</div>
-		<div class="sprint">
-			bla bla
-		</div>
+	</div>
+	<div class="sprint">
+		bla bla
+	</div>
 	<footer>pie</footer>
 	<!-- enlace a JS -->
 	<script src="assets/js/main.js"></script>

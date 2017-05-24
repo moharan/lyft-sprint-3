@@ -115,7 +115,7 @@ input {
 }
 /*contenedor playwith */
 .playwith {
-	height: 555px;
+	height: auto;
 	background-color: #00b2a9;
 	width: auto;
 	padding-top: 70px;
@@ -174,5 +174,41 @@ footer {
 	background-color: #666;
 	width: auto;
 }
+/*juego
+.juego {
+	background-color: #75726c;
+	width: 520px;
+	height: 312px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
 
+.espacio {
+	background-color: #e54e79;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+}*/
+
+#tablero{
+  border: 5px solid #900C3F;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.casilla{
+  box-sizing: border-box;
+  /*Es mejor con float:left*/
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 10%;
+  text-align: center;
+  border: 5px #900C3F solid;
+}
 
