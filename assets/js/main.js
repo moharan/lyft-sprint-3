@@ -1,4 +1,28 @@
 //alert("Proyecto final");
+// crear constructor
+class Teclado {
+
+    constructor(posicion_x, posicion_y) {
+        this.posicion_x = posicion_x;
+        this.posicion_y = posicion_y;
+    }
+    avanzar() {
+        return 'avanzando'
+    }
+
+    irIzquierda(tablero) {
+        return 'avanzamos a la izquierda';
+    }
+
+    irDerecha() {
+        return 'avanzamos a la derecha';
+    }
+
+    retroceder() {
+        return 'retrocediendo';
+    }
+}
+// escuchador a las teclas
 var digitos = /^[0-9]$/;
 var letras = /^[A-Za-z]*$/;
 
@@ -34,27 +58,30 @@ var juego = function() {
     console.log(auto01);
 
     if (auto01 == null || auto01.length == 0 || auto01 =="") {
-    	alert("Debe ingresar Numeros entre el 1 y 10");
+    	alert("Debe ingresar Numeros entre el 0 y 9");
     } else if (isNaN(parseInt(auto01))) {
     	alert("Debe ingresar números");
-        console.log(auto01 + "Debe ingresar números para X");
+        console.log(auto01 + "Debe ingresar números para X (0 - 9)");
     } else {
     	alert("Ingreso Datos para X");
-    	console.log(auto01 + "Ingreso Datos para X");
+    	console.log(auto01 + "Ingreso Datos para X (0 - 9)");
     }
 
     var auto02 = document.getElementById("auto02").value;
     console.log(auto02);
 
     if (auto02 == null || auto02.length == 0 || auto02 =="") {
-    	alert("Debe ingresar Numeros entre el 1 y 6");
+    	alert("Debe ingresar Numeros entre el 0 y 5");
     } else if (isNaN(parseInt(auto02))) {
     	alert("Debe ingresar números");
-        console.log(auto02 + "Debe ingresar números para Y");
+        console.log(auto02 + "Debe ingresar números para Y (0 - 5)");
     } else {
     	alert("Ingreso Datos para Y");
-    	console.log(auto02 + "Ingreso Datos para Y");
+    	console.log(auto02 + "Ingreso Datos para Y (0 - 5)");
     }
+    // restar para que quede con -1 para que parta de 0, como array
+    //auto01 =;
+    //auto02 =;
     // creando tablero desde js
   	// visible o invisible start (que son las indicaciones de tablero)
   	var autitos = document.getElementById("autitos");
